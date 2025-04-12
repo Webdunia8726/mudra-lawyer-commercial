@@ -117,7 +117,6 @@ body {
 
   /* who we are */
   .who-we-are-section {
-    background-color: #f8f9fa;
     padding: 60px 0;
   }
 
@@ -157,7 +156,6 @@ body {
   
   .services-section {
     padding: 60px 20px;
-    background: #fff;
   }
 
   .services-section h2 {
@@ -171,7 +169,6 @@ body {
   .mudra-carousel .service-card {
     border-radius: 15px;
     overflow: hidden;
-    background: linear-gradient(to bottom right, #f8be5f30, #3ebce630);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     height: 100%;
@@ -179,7 +176,6 @@ body {
   }
 
   .mudra-carousel .service-card:hover {
-    transform: translateY(-8px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     border-color: #3ebce6;
   }
@@ -278,9 +274,7 @@ justify-content: center;
   }
   
 
-  .apart-section {
-    background: linear-gradient(to right, #f8be5f20, #3ebce620);
-  }
+ 
   
   .apart-card {
     background: #fff;
@@ -302,7 +296,6 @@ justify-content: center;
 
   .our-edge-section {
     padding: 40px 15px;
-    background: linear-gradient(to right, #eaf4ff, #f3fff5);
     text-align: center;
   }
 
@@ -389,7 +382,6 @@ justify-content: center;
   /* team section */
   .our-team-section {
     padding: 60px 20px;
-    background: linear-gradient(to right, #eef2f3, #dbe9f4);
     text-align: center;
   }
 
@@ -407,6 +399,7 @@ justify-content: center;
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     background: #fff;
+    border: 2px solid rgb(233, 228, 228);
   }
 
   .team-card img {
@@ -508,7 +501,6 @@ justify-content: center;
     flex-wrap: wrap;
     max-width: 1100px;
     margin: 50px auto;
-    background: #ffffff;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
     border-radius: 16px;
     overflow: hidden;
@@ -517,7 +509,6 @@ justify-content: center;
   .contact-info {
     flex: 1;
     padding: 40px;
-    background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
     justify-content: center;
