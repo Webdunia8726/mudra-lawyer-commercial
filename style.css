@@ -766,6 +766,7 @@ justify-content: center;
 
 .form-control {
   border-radius: 8px;
+  border-color: rgb(109, 106, 106);
 }
 
 .btn-submit {
