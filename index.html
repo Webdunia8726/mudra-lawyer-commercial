@@ -217,18 +217,75 @@
     </div>
   </section>
 
-  <div class="container mt-5">
-    <div class="row justify-content-center g-3 mudra-buttons-row">
+<!-- Buttons -->
+<div class="d-flex justify-content-center align-items-center mt-5">
+  <div class="container text-center">
+    <div class="row g-4 justify-content-center">
       <div class="col-6 col-md-3">
-        <button class="mudra-btn w-100">For Owners</button>
+        <button class="mudra-btn w-100" data-bs-toggle="modal" data-bs-target="#tenantModal">For Tenants</button>
       </div>
       <div class="col-6 col-md-3">
-        <button class="mudra-btn w-100">For Tenants</button>
+        <button class="mudra-btn w-100" data-bs-toggle="modal" data-bs-target="#ownerModal">For Owners</button>
       </div>
     </div>
   </div>
+</div>
 
-  
+
+<!-- Tenant Modal -->
+<div class="modal fade" id="tenantModal" tabindex="-1" aria-labelledby="tenantModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <div class="modal-header">
+        <h5 class="modal-title" id="tenantModalLabel">Tenant Inquiry Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      
+      <div class="modal-body">
+        <form>
+          <div class="mb-3"><label class="form-label">Name</label><input type="text" class="form-control" /></div>
+          <div class="mb-3"><label class="form-label">Mobile No.</label><input type="tel" class="form-control" /></div>
+          <div class="mb-3"><label class="form-label">Email</label><input type="email" class="form-control" /></div>
+          <div class="mb-3"><label class="form-label">Space Required (Sq Ft)</label><input type="text" class="form-control" /></div>
+          <div class="mb-3"><label class="form-label">Location</label><input type="text" class="form-control" /></div>
+          <div class="mb-3"><label class="form-label">Monthly Budget</label><input type="text" class="form-control" /></div>
+          <div class="mb-3"><label class="form-label">Usage Purpose</label><input type="text" class="form-control" /></div>
+          <div class="text-end"><button type="submit" class="btn btn-submit">Submit</button></div>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Owner Modal -->
+<div class="modal fade" id="ownerModal" tabindex="-1" aria-labelledby="ownerModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <div class="modal-header">
+        <h5 class="modal-title" id="ownerModalLabel">Owner Listing Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      
+      <div class="modal-body">
+        <form>
+          <div class="mb-3"><label class="form-label">Name</label><input type="text" class="form-control" /></div>
+          <div class="mb-3"><label class="form-label">Mobile No.</label><input type="tel" class="form-control" /></div>
+          <div class="mb-3"><label class="form-label">Email</label><input type="email" class="form-control" /></div>
+          <div class="mb-3"><label class="form-label">Space to Let Out (Sq Ft)</label><input type="text" class="form-control" /></div>
+          <div class="mb-3"><label class="form-label">Location</label><input type="text" class="form-control" /></div>
+          <div class="mb-3"><label class="form-label">Expected Monthly Rent</label><input type="text" class="form-control" /></div>
+          <div class="mb-3"><label class="form-label">Any Specific Condition</label><input type="text" class="form-control" /></div>
+          <div class="text-end"><button type="submit" class="btn btn-submit">Submit</button></div>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
   <!-- What Sets Us Apart Section -->
 <section class="py-5 apart-section">
     <div class="container text-center">
