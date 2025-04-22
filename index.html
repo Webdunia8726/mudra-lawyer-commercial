@@ -334,8 +334,8 @@
         <div class="team-card">
           <img src="img/profile1.jpg" alt="Karunakar Tripathi">
           <div class="team-overlay">
-            <h3> Karunakar Tripathi</h3>
-            <p>Co-Founder | Wealth & Tax Planning Expert</p>
+            <h3> Karunakar Tripathi </h3>
+            <p>Head-Finance</p>
             <!-- <a href="#contact">Contact Us</a> -->
           </div>
         </div>
@@ -343,8 +343,8 @@
         <div class="team-card">
           <img src="img/mudra.jpeg" alt="Mandeep Singh">
           <div class="team-overlay">
-            <h3> Mandeep Singh</h3>
-            <p>Co-Founder | Equity & Legal Consulting Expert</p>
+            <h3>Mandeep Singh </h3>
+            <p>Advocate (Head-Legal)</p>
             <!-- <a href="#contact">Contact Us</a> -->
           </div>
         </div>
@@ -353,7 +353,7 @@
           <img src="img/R. Raman .jpg" alt="Ankit Verma">
           <div class="team-overlay">
             <h3> R. Raman</h3>
-            <p>Head Client Serving</p>
+            <p>Head- Client Servicing</p>
             <!-- <a href="#contact">Contact Us</a> -->
           </div>
         </div>
@@ -539,29 +539,35 @@
   </script>
 <script>
   $(document).ready(function(){
-  $(".team-carousel").owlCarousel({
-    loop: true,
-    margin: 30,
-    nav: true,
-    dots: false,
-    autoplay: true,
-    autoplayTimeout: 4000,
-    responsive: {
-      0: {
-        items: 1
-      },
-      576: {
-        items: 2
-      },
-      768: {
-        items: 3
-      },
-      992: {
-        items: 4
+    $(".team-carousel").owlCarousel({
+      loop: true,
+      margin: 30,
+      nav: true,
+      dots: false,
+      autoplay: true,
+      autoplayTimeout: 4000,
+      navText: [
+        '<i class="fas fa-chevron-left"></i>',
+        '<i class="fas fa-chevron-right"></i>'
+      ],
+      responsive: {
+        0: {
+          items: 1
+        },
+        576: {
+          items: 2
+        },
+        768: {
+          items: 3
+        },
+        992: {
+          items: 4
+        }
       }
-    }
+    });
   });
-});
+</script>
+
 
 </script>
   
